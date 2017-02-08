@@ -160,18 +160,17 @@
 <wire x1="85" y1="0" x2="85" y2="67" width="0" layer="20"/>
 <wire x1="85" y1="67" x2="0" y2="67" width="0" layer="20"/>
 <wire x1="0" y1="67" x2="0" y2="0" width="0" layer="20"/>
-<text x="29" y="65" size="1.778" layer="1" rot="R180">Powered by AM &amp; NMM</text>
-<text x="9" y="62" size="1.778" layer="1" rot="R180">2K17</text>
-<text x="81" y="3" size="1.778" layer="1" rot="R90">Copycats wil be prostituted</text>
-<text x="77" y="3" size="1.778" layer="1" rot="R90">1234567 tiratirametemete</text>
-<text x="60" y="60" size="1.778" layer="1" rot="R270">Este projecto use um ardjuino</text>
-<text x="16" y="31" size="3" layer="1" rot="R90">AREDJUINO</text>
-<text x="9" y="2" size="1" layer="1">12V GND VCC</text>
-<text x="29" y="3" size="0.7" layer="1" rot="R90">LED  GND 12V</text>
-<text x="11" y="60" size="2" layer="1">V1.1</text>
-<text x="3" y="13" size="0.7" layer="1" rot="R90">Servo GND VCC SIG</text>
-<text x="30" y="15" size="2" layer="1" rot="R90">E B C</text>
-<text x="80" y="36" size="1.5" layer="1" rot="R90">#OBAMACARES</text>
+<text x="3" y="65" size="1.778" layer="16" rot="MR180">Powered by AM &amp; NMM</text>
+<text x="77" y="65" size="1.778" layer="16" rot="MR180">2K17</text>
+<text x="81" y="3" size="1.778" layer="16" rot="MR90">Copycats wil be prostituted</text>
+<text x="77" y="3" size="1.778" layer="16" rot="MR90">1234567 tiratirametemete</text>
+<text x="74" y="60" size="1.778" layer="16" rot="MR270">Este projecto use um ardjuino</text>
+<text x="14" y="31" size="3" layer="16" rot="MR90">AREDJUINO</text>
+<text x="18" y="2" size="1" layer="16" rot="MR0">12V GND VCC</text>
+<text x="29" y="3" size="0.7" layer="16" rot="MR90">LED  GND 12V</text>
+<text x="75" y="63" size="2" layer="16" rot="MR0">V1.1</text>
+<text x="3" y="13" size="0.7" layer="16" rot="MR90">Servo GND VCC SIG</text>
+<text x="80" y="36" size="1.5" layer="16" rot="MR90">#OBAMACARES</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -679,7 +678,7 @@ design rules under a new name.</description>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="20mil"/>
+<param name="msWidth" value="15mil"/>
 <param name="msDrill" value="24mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -827,47 +826,47 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-3" value="" x="18.51" y="8.16" rot="R180">
-<attribute name="PROD_ID" value="CONN-10134" x="18.51" y="8.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_SKU" value="PRT-08433" x="18.51" y="8.16" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-3" value="" x="8.51" y="8.16" rot="MR180">
+<attribute name="PROD_ID" value="CONN-10134" x="8.51" y="8.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SF_SKU" value="PRT-08433" x="8.51" y="8.16" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="PH_A_T" x="55" y="7" rot="R180">
-<attribute name="SF_SKU" value="PRT-08432" x="55" y="7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="PH_A_T" x="50" y="7" rot="MR180">
+<attribute name="SF_SKU" value="PRT-08432" x="50" y="7" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="1X04" value="PH_PWM_H" x="39.42" y="35.21" rot="R270"/>
-<element name="JP2" library="pinhead" package="1X04" value="BT" x="37.55" y="5.83"/>
-<element name="JP7" library="pinhead" package="1X12" value="Arduino_1_B" x="23.26" y="42.8" rot="R90"/>
-<element name="JP8" library="pinhead" package="1X12" value="Arduino_2_C" x="7.06" y="42.8" rot="R90"/>
-<element name="PH_B_T" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="68.01" y="7" rot="R180">
-<attribute name="SF_SKU" value="PRT-08432" x="68.01" y="7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP1" library="pinhead" package="1X04" value="PH_PWM_H" x="39.42" y="35.21" rot="MR270"/>
+<element name="JP2" library="pinhead" package="1X04" value="BT" x="37.55" y="5.83" rot="MR180"/>
+<element name="JP7" library="pinhead" package="1X12" value="Arduino_1_B" x="23.26" y="42.8" rot="MR90"/>
+<element name="JP8" library="pinhead" package="1X12" value="Arduino_2_C" x="7.06" y="42.8" rot="MR90"/>
+<element name="PH_B_T" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="63.01" y="7" rot="MR180">
+<attribute name="SF_SKU" value="PRT-08432" x="63.01" y="7" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R1" library="eagle-ltspice" package="0204/7" value="1KR" x="34.09" y="15.44" rot="R90">
-<attribute name="SPICEMODEL" value="NONE" x="34.09" y="15.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="34.09" y="15.44" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R1" library="eagle-ltspice" package="0204/7" value="1KR" x="34.09" y="15.44" rot="MR90">
+<attribute name="SPICEMODEL" value="NONE" x="34.09" y="15.44" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="34.09" y="15.44" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R2" library="eagle-ltspice" package="0204/7" value="1KR" x="38.1" y="15.43" rot="R90">
-<attribute name="SPICEMODEL" value="NONE" x="38.1" y="15.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="38.1" y="15.43" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R2" library="eagle-ltspice" package="0204/7" value="1KR" x="38.1" y="15.43" rot="MR90">
+<attribute name="SPICEMODEL" value="NONE" x="38.1" y="15.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="38.1" y="15.43" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R3" library="eagle-ltspice" package="0204/7" value="1KR" x="42.1" y="15.44" rot="R90">
-<attribute name="SPICEMODEL" value="NONE" x="42.1" y="15.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="42.1" y="15.44" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R3" library="eagle-ltspice" package="0204/7" value="1KR" x="42.1" y="15.44" rot="MR90">
+<attribute name="SPICEMODEL" value="NONE" x="42.1" y="15.44" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="42.1" y="15.44" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="T1" library="adafruit" package="TO92-EBC-OVAL" value="2N2222" x="23.7" y="18.28" rot="R90"/>
-<element name="LED_STRIP" library="SparkFun-Connectors" package="1X02" value="" x="25.48" y="6.28" rot="R90"/>
-<element name="J2" library="SparkFun-Connectors" package="1X04" value="" x="11.28" y="18.47">
-<attribute name="PROD_ID" value="CONN-09696" x="11.28" y="18.47" size="1.778" layer="27" display="off"/>
+<element name="T1" library="adafruit" package="TO92-EBC-OVAL" value="2N2222" x="23.7" y="18.28" rot="MR270"/>
+<element name="LED_STRIP" library="SparkFun-Connectors" package="1X02" value="" x="25.48" y="6.28" rot="MR90"/>
+<element name="J2" library="SparkFun-Connectors" package="1X04" value="" x="18.28" y="18.47" rot="MR0">
+<attribute name="PROD_ID" value="CONN-09696" x="18.28" y="18.47" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="1X04" value="" x="11.28" y="21.42">
-<attribute name="PROD_ID" value="CONN-09696" x="11.28" y="21.42" size="1.778" layer="27" display="off"/>
+<element name="J4" library="SparkFun-Connectors" package="1X04" value="" x="18.28" y="21.42" rot="MR0">
+<attribute name="PROD_ID" value="CONN-09696" x="18.28" y="21.42" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="1X04" value="" x="11.28" y="15.37">
-<attribute name="PROD_ID" value="CONN-09696" x="11.28" y="15.37" size="1.778" layer="27" display="off"/>
+<element name="J5" library="SparkFun-Connectors" package="1X04" value="" x="18.28" y="15.37" rot="MR0">
+<attribute name="PROD_ID" value="CONN-09696" x="18.28" y="15.37" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="SERVO" library="SparkFun-Connectors" package="1X03" value="" x="6.27" y="15.94" rot="R90"/>
-<element name="J6" library="SparkFun-Connectors" package="1X05" value="" x="41.42" y="57.01" rot="R270"/>
-<element name="PH_A_H" library="SparkFun-Connectors" package="1X03" value="" x="55" y="63" rot="R180"/>
-<element name="PH_B_H" library="SparkFun-Connectors" package="1X03" value="" x="49.92" y="26.5"/>
+<element name="SERVO" library="SparkFun-Connectors" package="1X03" value="" x="6.27" y="15.94" rot="MR90"/>
+<element name="J6" library="SparkFun-Connectors" package="1X05" value="" x="41.42" y="57.01" rot="MR270"/>
+<element name="PH_A_H" library="SparkFun-Connectors" package="1X03" value="" x="55" y="63" rot="MR0"/>
+<element name="PH_B_H" library="SparkFun-Connectors" package="1X03" value="" x="49.92" y="26.5" rot="MR180"/>
 </elements>
 <signals>
 <signal name="IN4">
@@ -898,12 +897,12 @@ design rules under a new name.</description>
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="1"/>
 <contactref element="J6" pad="1"/>
-<wire x1="18.9" y1="15.37" x2="41.42" y2="57.01" width="0" layer="19" extent="1-1"/>
-<wire x1="16.36" y1="15.37" x2="18.9" y2="15.37" width="0" layer="19" extent="1-1"/>
-<wire x1="13.82" y1="15.37" x2="16.36" y2="15.37" width="0" layer="19" extent="1-1"/>
-<wire x1="11.28" y1="15.37" x2="13.82" y2="15.37" width="0" layer="19" extent="1-1"/>
-<wire x1="8.51" y1="8.16" x2="11.28" y2="15.37" width="0" layer="19" extent="1-1"/>
-<wire x1="25.48" y1="8.82" x2="18.9" y2="15.37" width="0" layer="19" extent="1-1"/>
+<wire x1="18.28" y1="15.37" x2="41.42" y2="57.01" width="0" layer="19" extent="1-1"/>
+<wire x1="15.74" y1="15.37" x2="18.28" y2="15.37" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2" y1="15.37" x2="15.74" y2="15.37" width="0" layer="19" extent="1-1"/>
+<wire x1="10.66" y1="15.37" x2="13.2" y2="15.37" width="0" layer="19" extent="1-1"/>
+<wire x1="18.51" y1="8.16" x2="18.28" y2="15.37" width="0" layer="19" extent="1-1"/>
+<wire x1="25.48" y1="8.82" x2="18.51" y2="8.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="PH_A_H" pad="2"/>
@@ -911,17 +910,17 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="J3" pad="1"/>
 <contactref element="PH_A_H" pad="1"/>
-<wire x1="55" y1="7" x2="55" y2="63" width="0" layer="19" extent="1-1"/>
+<wire x1="50" y1="7" x2="55" y2="63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="PH_B_T" pad="1"/>
 <contactref element="PH_B_H" pad="3"/>
-<wire x1="68.01" y1="7" x2="55" y2="26.5" width="0" layer="19" extent="1-1"/>
+<wire x1="63.01" y1="7" x2="55" y2="26.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="PH_B_T" pad="2"/>
 <contactref element="PH_B_H" pad="1"/>
-<wire x1="63.01" y1="7" x2="49.92" y2="26.5" width="0" layer="19" extent="1-1"/>
+<wire x1="68.01" y1="7" x2="49.92" y2="26.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX">
 <contactref element="JP2" pad="2"/>
@@ -941,13 +940,13 @@ design rules under a new name.</description>
 <contactref element="J6" pad="5"/>
 <wire x1="23.26" y1="49.15" x2="41.42" y2="46.85" width="0" layer="19" extent="1-1"/>
 <wire x1="23.26" y1="56.77" x2="23.26" y2="49.15" width="0" layer="19" extent="1-1"/>
-<wire x1="18.9" y1="21.42" x2="23.26" y2="49.15" width="0" layer="19" extent="1-1"/>
-<wire x1="16.36" y1="21.42" x2="18.9" y2="21.42" width="0" layer="19" extent="1-1"/>
-<wire x1="13.82" y1="21.42" x2="16.36" y2="21.42" width="0" layer="19" extent="1-1"/>
-<wire x1="11.28" y1="21.42" x2="13.82" y2="21.42" width="0" layer="19" extent="1-1"/>
-<wire x1="6.27" y1="18.48" x2="11.28" y2="21.42" width="0" layer="19" extent="1-1"/>
-<wire x1="18.51" y1="8.16" x2="18.9" y2="21.42" width="0" layer="19" extent="1-1"/>
-<wire x1="41.36" y1="5.83" x2="18.51" y2="8.16" width="0" layer="19" extent="1-1"/>
+<wire x1="18.28" y1="21.42" x2="23.26" y2="49.15" width="0" layer="19" extent="1-1"/>
+<wire x1="15.74" y1="21.42" x2="18.28" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2" y1="21.42" x2="15.74" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="10.66" y1="21.42" x2="13.2" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="6.27" y1="18.48" x2="10.66" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="8.51" y1="8.16" x2="6.27" y2="18.48" width="0" layer="19" extent="1-1"/>
+<wire x1="41.36" y1="5.83" x2="18.28" y2="21.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R2" pad="2"/>
@@ -974,14 +973,14 @@ design rules under a new name.</description>
 <contactref element="SERVO" pad="1"/>
 <contactref element="J6" pad="3"/>
 <wire x1="23.26" y1="54.23" x2="41.42" y2="51.93" width="0" layer="19" extent="1-1"/>
-<wire x1="18.9" y1="18.47" x2="23.26" y2="54.23" width="0" layer="19" extent="1-1"/>
-<wire x1="16.36" y1="18.47" x2="18.9" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="13.82" y1="18.47" x2="16.36" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="11.28" y1="18.47" x2="13.82" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="6.27" y1="15.94" x2="11.28" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="24.97" y1="15.74" x2="18.9" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="13.51" y1="8.16" x2="13.82" y2="18.47" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="11.62" x2="24.97" y2="15.74" width="0" layer="19" extent="1-1"/>
+<wire x1="24.97" y1="20.82" x2="23.26" y2="54.23" width="0" layer="19" extent="1-1"/>
+<wire x1="18.28" y1="18.47" x2="24.97" y2="20.82" width="0" layer="19" extent="1-1"/>
+<wire x1="15.74" y1="18.47" x2="18.28" y2="18.47" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2" y1="18.47" x2="15.74" y2="18.47" width="0" layer="19" extent="1-1"/>
+<wire x1="10.66" y1="18.47" x2="13.2" y2="18.47" width="0" layer="19" extent="1-1"/>
+<wire x1="6.27" y1="15.94" x2="10.66" y2="18.47" width="0" layer="19" extent="1-1"/>
+<wire x1="13.51" y1="8.16" x2="13.2" y2="18.47" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="11.62" x2="24.97" y2="20.82" width="0" layer="19" extent="1-1"/>
 <wire x1="38.82" y1="5.83" x2="38.1" y2="11.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
@@ -1018,7 +1017,7 @@ design rules under a new name.</description>
 <signal name="N$21">
 <contactref element="LED_STRIP" pad="1"/>
 <contactref element="T1" pad="C"/>
-<wire x1="25.48" y1="6.28" x2="24.97" y2="20.82" width="0" layer="19" extent="1-1"/>
+<wire x1="25.48" y1="6.28" x2="24.97" y2="15.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SERVO" pad="3"/>
@@ -1028,14 +1027,15 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="J3" pad="2"/>
 <contactref element="PH_A_H" pad="3"/>
-<wire x1="50" y1="7" x2="49.92" y2="63" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="7" x2="49.92" y2="63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<polygon width="0.4064" layer="1">
-<vertex x="0" y="67"/>
+<polygon width="0.4064" layer="16">
+<vertex x="0" y="66"/>
 <vertex x="0" y="0"/>
 <vertex x="85" y="0"/>
 <vertex x="85" y="67"/>
+<vertex x="0" y="67"/>
 </polygon>
 </signal>
 </signals>
