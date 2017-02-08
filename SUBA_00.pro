@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/afonsom/Documents/github/Suba PCB/SUBA.brd
 
-Start at      : 17:42:48 (2/8/17)
+Start at      : 17:55:37 (2/8/17)
 End at        : 01:00:00 (1/1/70)
 Elapsed time  : 00:00:00
 
-Signals       :    27   RoutingGrid: 9 mil  Layers: 1
+Signals       :    27   RoutingGrid: 11,5 mil  Layers: 1
 Connections   :    41   predefined:  0 ( 0 Vias )
 
-Router memory :   461496
+Router memory :   285606
 
 Passname          : TopRouter
 
