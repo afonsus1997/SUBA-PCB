@@ -10,7 +10,7 @@
 ![alt tag](https://raw.githubusercontent.com/afonsus1997/SUBA-PCB/master/SCH1.png)
 
 ###Preparação
-![alt tag](https://raw.githubusercontent.com/afonsus1997/SUBA-PCB/master/tonered.jpeg)
+![alt tag](https://raw.githubusercontent.com/afonsus1997/SUBA-PCB/master/tonered.jpg)
 
 ###Etched
 ![alt tag](https://raw.githubusercontent.com/afonsus1997/SUBA-PCB/master/etched.jpeg)
